@@ -1,0 +1,116 @@
+html,body {
+    min-width: 50px;
+    width: 100%;
+    font-family: Arial,sans-serif;
+    margin:0;
+    padding:0; 
+}
+header h1{
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 7%;
+    float: bottom;
+}
+
+nav{
+    list-style-type: none;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    background-color: rgb(238, 253, 253);
+}
+
+nav a{
+    text-decoration: none;
+    padding: 12px 16px ;
+}
+
+nav ul{
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 10px;
+    width: 100%;
+
+}
+
+nav ul li{
+    float: left;
+    text-align: center;
+}
+
+nav li :hover{
+    background-color: rgb(144, 170, 144);
+
+}
+
+nav li a{
+    display: block;
+    text-align: center;
+}
+
+body main{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 20px 20px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.name-input{
+    width: 200px;
+    padding: 10px 0px;
+}
+
+.drink-select{
+    padding: 5px 0px;
+    width: 200px;
+}
+.submission{
+    padding: 10px 0px;
+}
+
+form{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 16px 0px;
+    padding: 0px 20px 0px 0px;
+}
+
+.size-select{
+   display: flex;
+   width: auto;
+}
+
+label{
+    display: block;
+}
+
+input[type="text"], select{
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+input[type="radio"]{
+    margin-left: 15px;
+}
+
+input[type="submit"]{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: 0px;
+    cursor: wait;
+}

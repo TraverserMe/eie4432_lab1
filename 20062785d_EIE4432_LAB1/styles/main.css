@@ -1,0 +1,97 @@
+html,body {
+    min-width: 50px;
+    width: 100%;
+    font-family: Arial,sans-serif;
+    margin:0;
+    padding:0; 
+}
+header h1{
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 7%;
+    float: bottom;
+}
+
+nav{
+    list-style-type: none;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    background-color: rgb(238, 253, 253);
+}
+
+nav a{
+    text-decoration: none;
+    padding: 12px 16px ;
+}
+
+nav ul{
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 10px;
+    width: 100%;
+
+}
+
+nav ul li{
+    float: left;
+    text-align: center;
+}
+
+nav li :hover{
+    background-color: rgb(144, 170, 144);
+
+}
+
+nav li a{
+    display: block;
+    text-align: center;
+}
+
+body main{
+    display: flex;
+    flex: 1;
+    padding: 20px 20px;
+    justify-content: center;
+}
+
+
+
+.section-header{
+    text-align: center;
+}
+
+
+.featured-drink{
+    display: flex;
+    justify-content: center;
+}
+
+.drink-container{
+    display: flex;
+    justify-content: center;
+}
+
+.drink{
+    padding: 0px 10px 0px ;
+    text-align: left;
+}
+
+.drink img{
+    height: 200px;
+    width: 200px;
+    margin: 0px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}

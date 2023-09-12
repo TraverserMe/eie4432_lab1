@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20062785d_Drink Ordering System</title>
+    <link rel="stylesheet" href="styles/order.css">
+</head>
+<body>
+    <header>
+        <h1>Drink Ordering System</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="order.html">Order</a></li>
+                <li><a href="#">Menu</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="#">
+            <div class="name-input">
+                Name: 
+                <br>
+                <input type="text" name="name" id="name">
+                <br>
+            </div>
+            <div class="drink-select">
+                <label for="drink">Drink: </label>
+                <br>
+                <select name="drink" id="drink">
+                    <option value="">Bubble Milktea</option>
+                    <option value="">Iced Latte</option>
+                    <option value="">Pineapple Juice</option>
+                </select>
+    
+            </div>
+    
+            <div class="size-select">
+                <label for="size">Size: </label>
+                <input type="radio" name="small" id="small">
+                <label for="small">Small</label>
+                <input type="radio" name="medium" id="medium">
+                <label for="medium">Medium</label>
+                <input type="radio" name="large" id="large">
+                <label for="large">Large</label>
+                
+            </div>
+    
+            <div class="submission">
+                <input type="submit" value="Place Order">
+            </div>
+        </form>
+        
+    </main>
+
+    <footer>
+        <p> &copy; 20062785d Lee Kin Nang - EIE4432 Lab 1 Project</p>
+    </footer>
+</body>
+</html>
